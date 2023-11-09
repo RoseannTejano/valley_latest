@@ -67,10 +67,10 @@ class LandingScreen extends StatelessWidget {
                     radius: 100,
                     height: 60,
                     color: Colors.white,
-                    label: 'Faculty Schedule',
+                    label: 'Faculty Bulletin',
                     onPressed: () {
                       Navigator.pushReplacementNamed(
-                          context, Routes().homescreen);
+                          context, Routes().facultybulletinscreen);
                     },
                   ),
                   ButtonWidget(
